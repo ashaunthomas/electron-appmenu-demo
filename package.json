@@ -1,6 +1,6 @@
 {
   "name": "electron-native-api-experiments",
-  "productName": "Menu Demo",
+  "productName": "Menu demo",
   "version": "1.0.0",
   "description": "experiments",
   "main": "src/main.js",
