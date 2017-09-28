@@ -9,7 +9,17 @@ app.on('ready', _ => {
         {
             label:name,
             submenu: [{
-                label: `About ${name}`
+                label: `About ${name}`,
+                click: _ => {
+                    console.log("clicked");
+                },
+                role: 'about'
+            }, {
+                type: 'separator'
+            }, {
+                label: "Quit",
+                click: _ => { console.log("works") },
+                accelerator: 'CommandOrControl+Q'
             }]
         }
     ]
