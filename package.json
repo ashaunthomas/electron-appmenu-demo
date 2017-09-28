@@ -1,0 +1,23 @@
+{
+  "name": "electron-native-api-experiments",
+  "productName": "Menu Demo",
+  "version": "1.0.0",
+  "description": "experiments",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashaunthomas/electron-native-api-experiments.git"
+  },
+  "author": "A'Shaun Thomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashaunthomas/electron-native-api-experiments/issues"
+  },
+  "homepage": "https://github.com/ashaunthomas/electron-native-api-experiments#readme",
+  "devDependencies": {
+    "electron": "^1.7.8"
+  }
+}
